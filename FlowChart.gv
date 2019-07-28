@@ -1,0 +1,42 @@
+digraph
+{
+"if more than 20? \nYes/No"[shape="Diamond"];
+
+Welcome->"Start a new page";
+Welcome->"View List";
+"Start a new page"->"Enter";
+"Enter"->"if more than 20? \nYes/No";
+"if more than 20? \nYes/No"->"Start a new page"[xlabel="Yes"];
+"if more than 20? \nYes/No"->"View List"[xlabel="No"];
+"View List"->"Done";
+"Done"->"Save to .TXT file";
+
+subgraph Options
+{
+"View List"->"Add";
+"Add"->"Enter";
+"View List"->"Select";
+
+subgraph Select_Options
+{
+"Select"->"Display Info";
+"Display Info"->"View List";
+
+"Select"->"Do it now";
+"Do it now"->"High Light";
+"High Light"->"View List";
+"Select"->"Skip";
+"Skip"->"View List";
+"Select"->"Re-enter";
+"Re-enter"->"Cross-Out";
+"Re-enter"->"Move to the end";
+"Move to the end"->"View List";
+"Select"->"Cross-Out";
+"Cross-Out"->"If on top"[xlabel="greyed"];
+"If on top"[shape="Diamond"];
+"If on top"->"Delete"[xlabel=Yes];
+"If on top"->"View List"[xlabel=No];
+
+}
+}
+}

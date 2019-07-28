@@ -1,0 +1,7 @@
+C:\Users\kensk\source\repos\TimeMan\TimeMan\bin\Debug\TimeMan.exe.config
+C:\Users\kensk\source\repos\TimeMan\TimeMan\bin\Debug\TimeMan.exe
+C:\Users\kensk\source\repos\TimeMan\TimeMan\bin\Debug\TimeMan.pdb
+C:\Users\kensk\source\repos\TimeMan\TimeMan\obj\Debug\TimeMan.csprojAssemblyReference.cache
+C:\Users\kensk\source\repos\TimeMan\TimeMan\obj\Debug\TimeMan.csproj.CoreCompileInputs.cache
+C:\Users\kensk\source\repos\TimeMan\TimeMan\obj\Debug\TimeMan.exe
+C:\Users\kensk\source\repos\TimeMan\TimeMan\obj\Debug\TimeMan.pdb
