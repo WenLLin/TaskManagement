@@ -1,4 +1,6 @@
-This program allows you to 
+![TaskMana](https://user-images.githubusercontent.com/52712855/67222180-cab8e800-f3fa-11e9-86a4-1bc9c4289680.PNG)
+
+**This program allows you to:** 
 
 -add tasks to "Task List", and newly added task will be the last on the list 
 
